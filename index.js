@@ -8,6 +8,7 @@ function theBeatlesPlay(a, b) {
 
 function johnLennonFacts(a) {
   var i = 0
+<<<<<<< HEAD
   var newList = [];
   while (i < a.length) {
     var newFact = a.slice(i, i + 1) + "!!!";
@@ -15,6 +16,13 @@ function johnLennonFacts(a) {
     i++;
   }
   return newList;
+=======
+  while (i < a.length) {
+    var newThing = a.push("!!!");
+    i++;
+  }
+  return newThing;
+>>>>>>> 6aa8fd1e9d2808e0ad8def928a0689d262a1ee3f
 }
 
 function iLoveTheBeatles(n) {
